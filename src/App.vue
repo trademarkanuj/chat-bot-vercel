@@ -14,7 +14,7 @@
           @click="selectChat(chat.id)"
         >
           <div class="chat-title">{{ chat.title || "Untitled" }}</div>
-          <div class="chat-last">{{ chat.last_message || "No messages yet" }}</div>
+          <!-- <div class="chat-last">{{ chat.last_message || "No messages yet" }}</div> -->
         </li>
       </ul>
     </aside>
