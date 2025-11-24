@@ -6,4 +6,36 @@ pnpm-debug.log*
 pnpm-error.log*
 
 # Dependency directories
-node
+node_modules/
+
+# Production build output
+dist/
+dist-ssr/
+*.local
+
+# Vite cache
+.vite/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Optional if using pnpm
+.pnpm-store/
